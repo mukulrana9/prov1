@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+<div class="wrap">
+  <h2>Sign up Here</h2>
+<form class="" action="signup.html" target="_blank">
+    <input type="text" name="" value="" placeholder="First Name" required>
+    <input type="text" name="" value="" placeholder="Last Name" required>
+  <input type="email" name="" value="" id="email" placeholder="Email" required>
+    <input type="password" name="" id="password" value="" placeholder="Password" required>
+    <p >Set Security Question</p>
+    <select id="questionselect">
+      <option value="whatisyourmothername"  >What is your mother's name?</option>
+      <option value="whatisyourfirstpet">What is your first pet?</option>
+      <option value="whatisyourmobile">What is your first mobile?</option>
+    </select>
+
+    <input type="text" id="answer" name="" value="" placeholder="Enter your answer" required>
+    <input type="button" name="" value="Sign up" onclick="validateForm(event)">
+
+
+
+  </form>
+
+</div>
+<script src="signup.js" charset="utf-8"></script>
+  </body>
+</html>

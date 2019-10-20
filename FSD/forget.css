@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(signup2.jpeg);
+  background-size: cover;
+  font-family: tahoma,sans-serif;
+  text-align: center;
+  color: black;
+}
+.form-area
+{
+  position: absolute;
+  /* top: 20%;
+  left: 45%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+background-color: rgba(0,0,0,0.7);
+  padding: 40px;
+  border-radius: 20%;
+}
+h3{
+
+padding: 0,0,1px;
+  margin-top: 20%;
+  font-weight: bold;
+  display: inline-flex;
+  block-size:25px;
+  font-size: 20px;
+
+  color:White;
+  text-align: cente
+  margin-bottom:20%;
+font-family: 'Cabin', sans-serif;
+  /* margin-bottom: 30px; */
+
+
+
+}
+
+.form-area input{
+  margin-bottom: 20px;
+
+  width: 100%;
+}
+.form-area input[type=email]{
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+
+  outline: none;
+  height: 40px;
+  color: #ffffff;
+  display: 16px;
+}
+.form-area input[type=email]{
+  /* margin-top: 2%; */
+  color: #fff;
+}
+::placeholder select{
+  margin-top: 20px;
+  padding: 5px 0;
+
+}
+::placeholder {
+text-align: center;
+color: #AFD5C2;
+
+}
+#a{
+
+  color:#fffff;
+  font-size: 40px;
+
+  cursor: pointer;
+  border-radius: 20px;
+}
+.form-area input[type=submit]{
+  border: none;
+  height: 30px;
+  outline: none;
+  color:#fffff;
+  font-size: 15px;
+
+  background-color: tomato;
+  cursor: pointer;
+  border-radius: 20px;
+}

@@ -1,0 +1,100 @@
+body{
+  background: url(signup3.jpg);
+    background-size: cover;
+    font-family: Arial;
+    text-align: center;
+}
+.wrap{
+  max-width: 350px;
+  border-radius: 20px;
+  margin: auto;
+  background: rgba(0,0,0,0.6);
+
+  box-sizing: border-box;
+  padding: 40px;
+  color: #fff;
+  margin-top:100px;
+  height: auto;
+}
+
+h2{
+  text-align: center;
+
+}
+input[type=text],input[type=password],input[type=email]{
+  width: 100px;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0,0,0,0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  /* color: :#fff; */
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+  width: 100%;
+
+}
+input[type=button]{
+  /* border: none;
+  height: 40px;
+  outline: none; */
+  /* color:#ffffff; */
+  /* font-size: 15px; */
+  /* background-color: tomato; */
+  /* cursor: pointer;
+  border-radius: 20px;
+  width: 200px;
+  align: center;
+  margin-left: 43px;
+  margin-top: 25px; */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: #60adde;
+  opacity: 0.7;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+  margin-left:5px;
+
+
+
+}
+p{
+  font-size: 20px;
+  color: #AFD5C2;
+  text-align: center;
+  margin-bottom: 3px;
+}
+select{
+
+
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: rgba(0,0,0,0.10);
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted #fff;
+  /* color: grey; */
+  border-radius: 5px;
+
+  margin: 5px;
+  font-weight: bold;
+  width: 100%;
+
+  text-align: center;
+  color: #AFD5C2;
+
+
+}
+::placeholder {
+text-align: center;
+color: #AFD5C2;
+
+}

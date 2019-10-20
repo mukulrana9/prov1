@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+<link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div class="form-area" style="background: rgba(0,0,0,0.8); ">
+    <h3>Login Page</h3>
+      <form target="_blank">
+        <p>Email</p>
+        <input type="email" name="" value="" placeholder="enter your email" id="email" required>
+        <p>Password</p>
+        <input type="password" name="" value="" placeholder="enter your Password" id="password" required>
+        <p>Confirm Password</p>
+        <input type="password" name="" value="" placeholder="re enter your password" id="repassword" required>
+        <p style="padding-bottom: 15px;">Security Question</p>
+        <select id="questionselect" style=" width: 325px; opacity: 0.5; background-color:transparent;text-align-last:center; ">
+          <option value="whatisyourmothername"  >What is your mother's name?</option>
+          <option value="whatisyourfirstpet">What is your first pet?</option>
+          <option value="whatisyourmobile">What is your first mobile?</option>
+        </select>
+        <p></p>
+        <input type="text" id="answer" name="" value="" placeholder="enter your answer" required>
+        <input type="button" value="submit" onclick="validateForm(event)" >
+        <a href="forget.html">Forget Password?</a>
+        <a href="signup.html">Sign up</a>
+
+      </form>
+
+  </div>
+
+</body>
+<script type="text/javascript" src="login.js">
+
+</script>
+</html>
